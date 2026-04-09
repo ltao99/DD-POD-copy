@@ -1,0 +1,33 @@
+# Object and Module files
+*.o
+*.mod
+*.smod
+*.i
+
+# Executables
+a.out
+max3d-par
+
+# Dump and Output files
+fort.*
+*.xyz
+*.vtk
+*.dat
+
+# Logs
+stderr*
+stdout*
+time
+*.log
+
+# Python virtual envs (if any)
+venv/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

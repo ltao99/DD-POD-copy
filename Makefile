@@ -49,6 +49,7 @@ LIBS = -Wl,--start-group \
 
 
 # ======================= Source Files =====================
+VPATH = src
 SRC = \
   sizes.f90 \
   MOD_Constants.f90 \
@@ -84,7 +85,7 @@ all: $(EXE)
 $(EXE): $(OBJ)
 	$(FC) $(FFLAGS) $(INCLUDES) $(LIBDIRS) -o $@ $^ $(LIBS)
 
-%.o: %.f90
+%.o: src/%.f90
 	$(FC) $(FFLAGS) $(INCLUDES) -c $<
 
 # ======================= Run Rule =========================
