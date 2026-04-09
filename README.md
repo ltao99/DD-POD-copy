@@ -1,7 +1,7 @@
 # Accelerating 3D Magnetotelluric Forward Modelling with Domain Decomposition and Order-Reduction Methods
 
 **Authors/Information:** Luis Tao and Fabio Zyserman  
-**Paper reference:** ** (https://doi.org/10.31223/X5JV1C)*
+**Paper reference:** (https://doi.org/10.31223/X5JV1C)
 
 ## Abstract
 This repository contains the source code, sample setups, and data for the 3D Magnetotelluric (MT) forward modelling code utilizing Domain Decomposition (DD) and Proper Orthogonal Decomposition (POD) techniques. The purpose of this software is to speed up complex 3D MT simulations by reducing the order of the problem while preserving acceptable accuracy in apparent resistivity and phase. 
