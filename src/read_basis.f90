@@ -144,7 +144,7 @@ SUBROUTINE register_pod_basis
   base_path = pod_path
 
   ! Construct filename
-  WRITE(filename_out, '(A,A,A,A,I0,A)') TRIM(base_path), 'sol_', modo, '_', blockid, 'svd2.txt'
+  WRITE(filename_out, '(A,A,A,A,I0,A)') TRIM(base_path), 'sol_', modo, '_', blockid, 'svd.txt'
 
   ! === Open basis file ===
   unit_check = 11
